@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-18",
+  "updated": "2026-09-22",
   "models": [
     {
       "id": "gpt-5.6-terra",
@@ -23,6 +23,28 @@
       "released": "2026-09-03",
       "input": 10.0,
       "output": 50.0
+    },
+    {
+      "id": "gpt-6-sol",
+      "provider": "openai",
+      "label": "GPT-6 Sol",
+      "context": 1050000,
+      "vision": true,
+      "reasoning": true,
+      "released": "2026-09-22",
+      "input": 2.0,
+      "output": 10.0
+    },
+    {
+      "id": "gpt-6-luna",
+      "provider": "openai",
+      "label": "GPT-6 Luna",
+      "context": 1050000,
+      "vision": true,
+      "reasoning": true,
+      "released": "2026-09-22",
+      "input": 0.1,
+      "output": 0.5
     },
     {
       "id": "gpt-5.6-sol",
@@ -190,15 +212,15 @@
       "output": 10.0
     },
     {
-      "id": "claude-opus-5",
+      "id": "claude-opus-5-5",
       "provider": "anthropic",
-      "label": "Claude Opus 5",
+      "label": "Claude Opus 5.5",
       "context": 1000000,
       "vision": true,
       "reasoning": true,
-      "released": "2026-07-24",
-      "input": 5.0,
-      "output": 25.0
+      "released": "2026-09-22",
+      "input": 4.0,
+      "output": 20.0
     },
     {
       "id": "claude-fable-5-1",
@@ -232,6 +254,17 @@
       "released": "2026-06-09",
       "input": 10.0,
       "output": 50.0
+    },
+    {
+      "id": "claude-opus-5",
+      "provider": "anthropic",
+      "label": "Claude Opus 5",
+      "context": 1000000,
+      "vision": true,
+      "reasoning": true,
+      "released": "2026-07-24",
+      "input": 5.0,
+      "output": 25.0
     },
     {
       "id": "claude-opus-4-8",
@@ -729,6 +762,61 @@
       "output": 0.1
     },
     {
+      "id": "MiMo-V2.5",
+      "provider": "xiaomi",
+      "label": "MiMo V2.5",
+      "context": 1048576,
+      "vision": true,
+      "reasoning": true,
+      "released": "2026-04-22",
+      "input": 0.14,
+      "output": 0.28
+    },
+    {
+      "id": "mimo-v2.6-pro",
+      "provider": "xiaomi",
+      "label": "MiMo V2.6 Pro",
+      "context": 1048576,
+      "vision": true,
+      "reasoning": true,
+      "released": "2026-09-22",
+      "input": 0.435,
+      "output": 0.87
+    },
+    {
+      "id": "mimo-v2.6-flash",
+      "provider": "xiaomi",
+      "label": "MiMo V2.6 Flash",
+      "context": 1048576,
+      "vision": true,
+      "reasoning": true,
+      "released": "2026-09-22",
+      "input": 0.14,
+      "output": 0.28
+    },
+    {
+      "id": "mimo-v2.6-pro-ultraspeed",
+      "provider": "xiaomi",
+      "label": "MiMo V2.6 Pro UltraSpeed",
+      "context": 1048576,
+      "vision": true,
+      "reasoning": true,
+      "released": "2026-09-22",
+      "input": 4.35,
+      "output": 8.7
+    },
+    {
+      "id": "MiMo-V2.5-Pro",
+      "provider": "xiaomi",
+      "label": "MiMo V2.5 Pro",
+      "context": 1048576,
+      "vision": true,
+      "reasoning": true,
+      "released": "2026-04-23",
+      "input": 0.42,
+      "output": 0.83
+    },
+    {
       "id": "qwen3.7-plus",
       "provider": "qwen",
       "label": "Qwen3.7 Plus",
@@ -881,28 +969,6 @@
       "released": "2025-03-06",
       "input": 0.8,
       "output": 2.4
-    },
-    {
-      "id": "MiMo-V2.5",
-      "provider": "xiaomi",
-      "label": "MiMo V2.5",
-      "context": 1048576,
-      "vision": true,
-      "reasoning": true,
-      "released": "2026-04-22",
-      "input": 0.14,
-      "output": 0.28
-    },
-    {
-      "id": "MiMo-V2.5-Pro",
-      "provider": "xiaomi",
-      "label": "MiMo V2.5 Pro",
-      "context": 1048576,
-      "vision": true,
-      "reasoning": true,
-      "released": "2026-04-23",
-      "input": 0.42,
-      "output": 0.83
     }
   ]
 }
